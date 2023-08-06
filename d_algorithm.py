@@ -56,7 +56,7 @@ def d_algorithm(circuit, fault, initial_tests):
     return all_test_vectors
 
 # Example usage
-circuit = [('input', 'a'), ('input', 'b'), ('input', 'c'), ('and', 'a', 'b', 'g1'), ('or', 'a', 'g1', 'g2'), ('not', 'g2', 'g3'), ('xor', 'b', 'c', 'g4'), ('nand', 'a', 'c', 'g5'), ('nor', 'b', 'g3', 'g6'), ('xnor', 'g4', 'g5', 'g7')] # Added additional gates
+circuit = [('input', 'a'), ('input', 'b'), ('input', 'c'), ('and', 'a', 'b', 'g1'), ('or', 'a', 'g1', 'g2'), ('not', 'g2', 'g3'), ('xor', 'b', 'c', 'g4'), ('nand', 'a', 'c', 'g5'), ('nor', 'b', 'g3', 'g6'), ('xnor', 'g4', 'g5', 'g7')] 
 
 fault = ('g7', False) # Updated fault position to gate 'g7' with value False
 
