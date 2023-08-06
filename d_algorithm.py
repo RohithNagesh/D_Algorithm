@@ -22,7 +22,7 @@ def simulate_circuit(circuit, inputs):
             values[gate[3]] = not (values[gate[1]] ^ values[gate[2]])
     return values
 
-# Define the D-algorithm for ATPG
+# Define the D algorithm for ATPG
 def d_algorithm(circuit, fault, initial_tests):
     """
     Performs the D-algorithm for combinational ATPG to generate test vectors for fault detection.
