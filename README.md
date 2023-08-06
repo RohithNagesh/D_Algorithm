@@ -1,4 +1,4 @@
-# Implementation of D Algorithm using python. 
+# Implementation of D algorithm using python. 
 # Automatic Test Pattern Generation (ATPG):
 ATPG is a technique used in digital circuit design to generate test patterns for detecting faults or defects in integrated circuits. The ATPG algorithm works by modeling the circuit as a set of logic gates and generating input patterns that will cause the circuit to produce specific output patterns. The output patterns are then compared to the expected output patterns to detect any faults or defects in the circuit.
 # D ALGORITHM 
